@@ -2,6 +2,14 @@
   "name": "sample.server",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/Sharadhi-2005/Sharadhii#readme",
+  "bugs": {
+    "url": "https://github.com/Sharadhi-2005/Sharadhii/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharadhi-2005/Sharadhii.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "module",
@@ -11,9 +19,12 @@
     "dev": "nodemon index.js"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.4.1",
+    "nodemailer": "^8.0.5",
     "nodemon": "^3.1.14"
   }
 }
